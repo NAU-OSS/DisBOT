@@ -282,5 +282,5 @@ Please also check out our contributors list for additional people who have contr
 As for additional information, please see our:
 - [Code of Conduct](https://github.com/NAU-OSS/DisBOT?tab=coc-ov-file)
 - [Contributing](https://github.com/NAU-OSS/DisBOT?tab=contributing-ov-file)
-- [License](https://github.com/NAU-OSS/DisBOT?tab=Apache-2.0-1-ov-file)
+- [License]((https://github.com/NAU-OSS/DisBOT/blob/main/LICENSE.md))
 - [Report a Security Vulnerability](https://github.com/NAU-OSS/DisBOT/blob/main/REPORT_VULNERABILITY.md)
