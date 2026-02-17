@@ -5,6 +5,8 @@ We aim to create a clear, safe, and positive environment by which anyone can con
 
 NO harassment is tolerated and anyone is welcome to participate. New developer, experienced developer - we welcome everyone.
 
+We value having a nice, caring community. We want everyone to enjoy collaborating and will ensure the space is safe, and open to do so.
+
 ---
 
 ## Standards
@@ -19,6 +21,12 @@ We defines negative behavior as:
 
 
 If a contributor has issues with a project maintainer, they are welcome to contact another maintainer about the problem. Maintainers are expected to remain nuetral and provide support in the case of a community dispute.
+
+---
+
+## Reporting
+
+Please report behavior to the project maintainers. Private communication with screenshots of what was said would be best.
 
 ---
 
