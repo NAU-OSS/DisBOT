@@ -77,7 +77,7 @@ utils/
     | {utility}.py  
 
 
-By which the curly brackers {} represent a placeholder for a file
+By which the curly brackers {} represent a placeholder for a file and | represents a subfolder.
 
 ---
 
@@ -87,8 +87,8 @@ By which the curly brackers {} represent a placeholder for a file
 
 Clone the repository, swap into the repository folder, and creates a virtual environment.
 ```bash
-git clone https://github.com/heb229/NAU-OSS-ModThree.git
-cd NAU-OSS-ModThree
+git clone https://github.com/NAU-OSS/DisBOT.git
+cd DisBOT
 python -m venv .venv
 ```
 
@@ -151,11 +151,11 @@ Visit:
 
 ### 2. Create a New Application
 
-1. Click **“New Application”** in the top right.
+1. Click **“New Application”** in the top right.  
 ![New Application](readme_images/new_application.png) 
-2. Enter a name for your bot. For example, `DisBOT`.
+2. Enter a name for your bot. For example, `DisBOT`.  
 ![Bot Name](readme_images/bot_name.png)
-3. Click **Create**.
+3. Click **Create**.  
 ![Bot Create](readme_images/bot_create.png)
 
 
@@ -163,27 +163,27 @@ This creates your Discord app, which is essentially the identity of the bot.
 
 ### 3. Add a Bot to the Application
 
-1. In the left sidebar, click **“Bot”**.
+1. In the left sidebar, click **“Bot”**.  
 ![Bot Click](readme_images/bot_click.png)
 
-If it doesn't automatically set it up, then do:
-2. Click **“Add Bot”**.
-3. Confirm by clicking **“Yes, do it!”**.
+If it doesn't automatically set it up, then do:  
+2. Click **“Add Bot”**.  
+3. Confirm by clicking **“Yes, do it!”**.  
 
 ### 4. Copy Your Bot Token
 
 **Important:** Do not share this publically! This is like a credential; if people have it, then they can take control of your bot.
 
-1. Under the **Bot** tab, scroll down and find "Token".
+1. Under the **Bot** tab, scroll down and find "Token".  
 ![Reset Token](readme_images/reset_token.png)
 
 Click **"Reset Token"**. This is also how you reset your token if it ever happens to be leaked.
-2. Confirm token reset by clicking **"Yes, do it!"**.
-![Confirm Reset](readme_images/reset_token_confirm.png)
+2. Confirm token reset by clicking **"Yes, do it!"**.  
+![Confirm Reset](readme_images/reset_token_confirm.png)  
 3. Confirm your Multi-Factor Authentication, if set up.
 ![Multiauth](readme_images/multiauth.png)
 
-4. Next, copy the token by clicking **"Copy"**
+4. Next, copy the token by clicking **"Copy"**  
 You will use this token in your .env file. (See step 4 of "Getting Started").
 ![Confirm](readme_images/copy_token.png)
 
@@ -192,31 +192,31 @@ Example:
 DISCORD_TOKEN=your_token
 ```
 
-5. You will additionally want to grant intent permissions. Still in the **"Bot"** tab, go to the section "**Priveledged Gateway Intents**" and turn them on.
+5. You will additionally want to grant intent permissions. Still in the **"Bot"** tab, go to the section "**Priveledged Gateway Intents**" and turn them on.  
 ![Intents](readme_images/intents_perms.png)
 
 ---
 
 ### 5. Invite the Bot to Your Server
 
-1. Still in the Developer Portal, go to the **OAuth2** tab.
+1. Still in the Developer Portal, go to the **OAuth2** tab.  
 ![oauth2 Tab](readme_images/oauth2_tab.png)
-2. Find the section **"OAuth2 URL Generator"** and then under **Scopes**, check:
-- "bot"
+2. Find the section **"OAuth2 URL Generator"** and then under **Scopes**, check:  
+- "bot"  
 ![Select Scopes](readme_images/select_scopes.png)
 
 
-3. Under **Bot Permissions**, select the permissions the bot may need. For example:
+3. Under **Bot Permissions**, select the permissions the bot may need. For example:  
 
 * Send Messages
 * Read Message History
 * Use Slash Commands
 * Potentially even Admin, depending on what you plan to use it for.
 
-4. Copy the generated URL.
-5. Open it in your browser.
-6. Choose the server you want to invite the bot to.
-7. Authorize it.
+4. Copy the generated URL.  
+5. Open it in your browser.  
+6. Choose the server you want to invite the bot to.  
+7. Authorize it.  
 
 Your bot will appear in that server's member list once invited.
 
@@ -233,9 +233,9 @@ Now, you can start using the commands and even make your own. Do keep in mind th
 ## Creating a New Command
 If you are looking to create a new command, please see these instructions:
 
-1. Create a new file in commands/.
-2. Define the class that should inherit from commands.cog. This is just to keep everything uniform and easy to edit.
-3. Include an async setup() function.
+1. Create a new file in commands/.  
+2. Define the class that should inherit from commands.cog. This is just to keep everything uniform and easy to edit.  
+3. Include an async setup() function.  
 
 An example of a new command in it's own file may look like:
 
