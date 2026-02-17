@@ -2,7 +2,7 @@
 
 We really, really appreciate your interest in contributing to this project. We are super excited to have you on board!
 
-We welcome you to fix bugs, buid improvements, update documentation, and even add new features.
+We welcome you to fix bugs, build improvements, update documentation, and even add new features.
 
 If you see an open issue on the GitHub tracker, you are welcome to jump right in.
 
