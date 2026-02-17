@@ -1,14 +1,14 @@
 # DisBot
 
----
-IMPORTANT: This project is for Northern Arizona Universities Open Source Sofware class, for the assignment "A-4.1.G | Creating you own project Copy" and is unlikely to be maintained after the completion of the course.
 
+IMPORTANT: This project is for Northern Arizona Universities Open Source Sofware class, for the assignment "A-4.1.G | Creating you own project Copy" and is unlikely to be maintained after the completion of the course.
+---
 
 # DisBOT Introduction
 
 In essence, this project is a modular, scalable Discord bot template intended to be community developed to provide a list of pre-built commands for the community. By the community, for the community. A quick way to allow server administrators to make a custom bot.
 
-** Longer Description:
+**Longer Description**:
 
 DisBOT is an open-source project with the goal of creating a beginner friendly Discord bot template built with discord.py. It is built to be modular, easy to use, scalable, and easy to build off of. Prebuilt command(s) are additionally available for quick and immediate start-up use.
 
@@ -30,7 +30,7 @@ This is the README file. If you are looking for:
 - Code of Conduct (containing how we operate as a community)
 - Report Vulnerability (containing what to do if a vulnerability is found)
 
-then please see their respective files.
+Then, please see their respective files.
 
 This README contains a few sections, namely:
 - [1] Features
@@ -66,17 +66,15 @@ Section 5 gives a quick overview of what can now be done after the completion of
 ## Project Structure
 The project itself is located in the DisBOT folder. That folder is structured such:
 
-main.py
-config.py
-requirements.py
-commands/
-    | init.py
-    | {command}.py
-utils/
-    | init.py
-    | {utility}.py
-tests/
-    | {tests}.py
+main.py  
+config.py  
+requirements.py  
+commands/  
+    | init.py  
+    | {command}.py  
+utils/  
+    | init.py  
+    | {utility}.py  
 
 
 By which the curly brackers {} represent a placeholder for a file
