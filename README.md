@@ -276,6 +276,9 @@ async def setup(bot):
 
 Please also check out our contributors list for additional people who have contributed to the project.
 
+**Current Status:**
+- Open
+
 As for additional information, please see our:
 - [Code of Conduct](https://github.com/NAU-OSS/DisBOT?tab=coc-ov-file)
 - [Contributing](https://github.com/NAU-OSS/DisBOT?tab=contributing-ov-file)
