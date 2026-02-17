@@ -32,6 +32,8 @@ If you see an open issue on the GitHub tracker, you are welcome to jump right in
 - Don't break existing functionality (so, please test extensively)
 - Write clear commit messages
 
+- If looking for our code of conduct and additional community guidlines, please see our CODE OF CONDUCT.
+
 ---
 
 ## Reporting Bugs
@@ -87,7 +89,7 @@ Please copy this and fill out each section when suggesting a new feature:
 
 ---
 
-## Code Review Process / Code Expectations
+## Code Review Process / Code Expectations / Documentation Standards
 
 When under code review, maintainers will check for:
 - PEP8 formatting
@@ -97,9 +99,15 @@ When under code review, maintainers will check for:
 Maintainers will review pull requests for:
 - Scope alignment (is it within scope of the project?)
 - COMMENTS! Please comment your code, describing briefly what things do. Please also add what specific imports do. If unsure how to structure comments, please see the approved code files and the example.py file. 
+- Comments should be clear and consise and the code should be self explanitory. If a line of code would be hard to understand at a glance, split it up.
 - Did you add ALL new requirements to the requirements.txt file?
 
 We openly welcome feedback! If you disagree with a reviewer, you are more than welcome to give your reasoning; however, it must be done in a respectful manner. If the reviewer disagrees even after reasoning is provided, you may request a different reviewer. If that reviewer also denies the request and asks for the same changes, then please make the changes requested. We can assure no malicious intent, as we want to foster a positive community. Please see CODE_OF_CONDUCT.md for more information.
+
+## Testing Requirements
+
+Code MUST be tested before a pull request is made. The tests need to be documented in the pull request, and need to be provided. It should be reproduceable. If there are any problems in the tests, the pull request will be denied.
+
 
 ## New? Check out Beginner-Friendly Issues!
 
