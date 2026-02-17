@@ -11,7 +11,7 @@ If you see an open issue on the GitHub tracker, you are welcome to jump right in
 ## How to Contribute
 
 1. Fork the repository
-2. Create a new branch (`git checkout <branch-name>)
+2. Create a new branch (`git checkout <branch-name>`)
     - Please note that in the branch name, you should include a keyword. For example: "bugFix", "newFeature", "documentation", "improvement" or other. It should be clear what the branch is for.
     - An example branch name might be: "bugFix-hello-display"
 3. Make your changes
